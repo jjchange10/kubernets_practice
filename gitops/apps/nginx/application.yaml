@@ -6,7 +6,7 @@ metadata:
 spec:
   source:
     repoURL: https://github.com/jjchange10/kubernets_practice.git
-    path: apps/nginx
+    path: gitops/apps/nginx
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
