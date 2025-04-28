@@ -1,0 +1,9 @@
+name: myapps
+
+image:
+  repository: 592158588915.dkr.ecr.ap-northeast-1.amazonaws.com/ryota
+  tag: latest
+  port: 8080
+
+replica:
+  count: 1
